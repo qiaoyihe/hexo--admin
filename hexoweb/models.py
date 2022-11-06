@@ -63,4 +63,3 @@ class TalkModel(models.Model):
     tags = models.TextField(max_length=0x7FFFFFFF, blank=True)
     time = models.TextField(max_length=0x7FFFFFFF)
     like = models.TextField(max_length=0x7FFFFFFF, blank=True)
-    values = models.TextField(max_length=0x7FFFFFFF, default="{}")
